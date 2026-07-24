@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useRental } from '../context/RentalContext';
+import paymentQR from '../assets/payment-qr.png';
 import { 
   QrCode, 
   Upload, 
@@ -178,20 +179,14 @@ export const PaymentUnlockPage: React.FC = () => {
               </button>
             </div>
 
-            {/* Visual QR Code Display */}
+            {/* Real QR Code Image */}
             <div className="bg-slate-50 border-2 border-dashed border-slate-300 rounded-2xl p-6 text-center space-y-3">
               <div className="text-xs font-extrabold text-slate-800 uppercase tracking-wider">
                 {paymentMethod === 'esewa' ? 'eSewa Official Payment QR' : 'Khalti Official Payment QR'}
               </div>
 
-              {/* Simulated QR Code Graphic */}
-              <div className="bg-white p-4 rounded-xl border border-slate-200 w-48 h-48 mx-auto shadow-sm flex flex-col items-center justify-center space-y-2 relative">
-                <QrCode className="w-32 h-32 text-slate-900" />
-                <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded ${
-                  paymentMethod === 'esewa' ? 'bg-emerald-600 text-white' : 'bg-purple-700 text-white'
-                }`}>
-                  DHANGADHI ROOM RENTAL
-                </span>
+              <div className="bg-white p-4 rounded-xl border border-slate-200 w-48 h-48 mx-auto shadow-sm flex flex-col items-center justify-center relative">
+                <img src={paymentQR} alt="Payment QR Code" className="w-full h-full object-contain" />
               </div>
 
               <div className="space-y-1 text-xs text-slate-600 font-bold">
