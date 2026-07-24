@@ -136,11 +136,11 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2 text-slate-300">
                 <PhoneCall className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="tel:+9779848400000" className="hover:text-emerald-400 font-bold">+977 9848400000</a>
+                <a href="tel:+9779743577999" className="hover:text-emerald-400 font-bold">+977 9743577999</a>
               </div>
               <div className="flex items-center gap-2 text-slate-300">
                 <MessageCircle className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="https://wa.me/9779800000000" target="_blank" rel="noreferrer" className="hover:text-emerald-400 font-bold">+977 9800000000</a>
+                <a href="https://wa.me/9779800000000" target="_blank" rel="noreferrer" className="hover:text-emerald-400 font-bold">+977 9743577999</a>
               </div>
             </div>
 
