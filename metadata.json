@@ -1,0 +1,6 @@
+{
+  "name": "DHANGADHI ROOM RENTAL",
+  "description": "Premium room, flat, and house rental platform in Dhangadhi with verified contact unlocks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
