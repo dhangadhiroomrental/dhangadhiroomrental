@@ -66,7 +66,7 @@ const MainContent: React.FC = () => {
         </button>
 
         <a
-          href="tel:+9779848400000"
+          href="tel:+9779743577999"
           className="bg-emerald-600 text-white p-2.5 rounded-full shadow-lg font-bold flex items-center justify-center -mt-5 border-4 border-slate-100"
           title="Direct Call"
         >
@@ -89,7 +89,7 @@ const MainContent: React.FC = () => {
         </button>
 
         <a
-          href="https://wa.me/9779800000000?text=Hello%20Dhangadhi%20Room%20Rental"
+          href="https://wa.me/9779743577999?text=Hello%20Dhangadhi%20Room%20Rental"
           target="_blank"
           rel="noreferrer"
           className="flex flex-col items-center gap-0.5 text-[10px] font-bold text-emerald-400"
