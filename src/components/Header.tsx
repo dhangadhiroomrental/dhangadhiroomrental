@@ -59,15 +59,15 @@ export const Header: React.FC = () => {
 
           <div className="flex items-center gap-3">
             <a 
-              href="tel:+9779848400000" 
+              href="tel:+9779743577999" 
               className="flex items-center gap-1 hover:text-emerald-400 transition-colors font-medium"
             >
               <PhoneCall className="w-3 h-3 text-emerald-400" />
-              <span>9848400000</span>
+              <span>9743577999</span>
             </a>
             <span className="text-slate-600">|</span>
             <a 
-              href="https://wa.me/9779800000000?text=Hello%20Dhangadhi%20Room%20Rental" 
+              href="https://wa.me/9779743577999?text=Hello%20Dhangadhi%20Room%20Rental" 
               target="_blank" 
               rel="noreferrer"
               className="flex items-center gap-1 text-emerald-400 hover:text-emerald-300 transition-colors font-semibold"
@@ -207,7 +207,7 @@ export const Header: React.FC = () => {
               <span>{t('कल गर्नुहोस्', 'Call Now')}</span>
             </a>
             <a
-              href="https://wa.me/9779800000000?text=Hello%20Dhangadhi%20Room%20Rental"
+              href="https://wa.me/9779743577999?text=Hello%20Dhangadhi%20Room%20Rental"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 bg-emerald-600 text-white py-2.5 px-3 rounded-lg text-xs font-bold shadow-xs"
