@@ -86,7 +86,7 @@ export const AdminDashboardPage: React.FC = () => {
 
   const handleAdminLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pinInput === '1234' || pinInput.toLowerCase() === 'admin') {
+    if (pinInput === '1498' || pinInput.toLowerCase() === 'admin') {
       setIsAdmin(true);
       setPinError(false);
     } else {
@@ -187,7 +187,7 @@ export const AdminDashboardPage: React.FC = () => {
               {t('एडमिन प्यानल लगइन', 'Admin Panel Login')}
             </h2>
             <p className="text-xs text-slate-500">
-              {t('धनगढी कोठा भाडा व्यवस्थापनका लागि लगइन गर्नुहोस् (पासकोड: 1234)', 'Enter admin PIN to manage rooms & unlock requests (Default PIN: 1234)')}
+              {t('धनगढी कोठा भाडा व्यवस्थापनका लागि लगइन गर्नुहोस् (पासकोड: 1234)', 'Enter admin PIN to manage rooms & unlock requests ()')}
             </p>
           </div>
 
@@ -195,13 +195,13 @@ export const AdminDashboardPage: React.FC = () => {
             <div className="space-y-1">
               <input
                 type="password"
-                placeholder="Enter PIN (Default: 1234)"
+                placeholder="Enter PIN (Default: )"
                 value={pinInput}
                 onChange={(e) => setPinInput(e.target.value)}
                 className="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-center text-sm font-extrabold text-slate-900 tracking-widest focus:outline-hidden focus:ring-2 focus:ring-slate-900"
               />
               {pinError && (
-                <p className="text-xs text-rose-600 font-bold">{t('गलत पिन! कृपया 1234 हान्नुहोस्।', 'Incorrect PIN! Try 1234.')}</p>
+                <p className="text-xs text-rose-600 font-bold">{t('गलत पिन! कृपया 4 digit pin हान्नुहोस्।', 'Incorrect PIN! Try ****.')}</p>
               )}
             </div>
 
