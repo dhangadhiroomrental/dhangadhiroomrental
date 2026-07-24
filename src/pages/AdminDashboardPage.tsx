@@ -195,7 +195,7 @@ export const AdminDashboardPage: React.FC = () => {
             <div className="space-y-1">
               <input
                 type="password"
-                placeholder="Enter PIN (Default: )"
+                placeholder="Enter PIN "
                 value={pinInput}
                 onChange={(e) => setPinInput(e.target.value)}
                 className="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-center text-sm font-extrabold text-slate-900 tracking-widest focus:outline-hidden focus:ring-2 focus:ring-slate-900"
